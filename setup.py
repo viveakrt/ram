@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ram',  
-    version='0.1',  
-    description='A short description of your package',
+    name='shri_ram_bhasa',  
+    version='0.10',  
+    description='ram programing language',
     long_description=open('README.md').read(),  
     long_description_content_type='text/markdown',  
     url='https://github.com/viveakrt/ram.git',
@@ -16,7 +16,7 @@ setup(
     python_requires='>=3.6',  
     entry_points={  
         'console_scripts': [
-            'ram=ram.cli:main',
+            'ram=shri_ram_bhasa.ramji:main',
         ],
     },
 )
